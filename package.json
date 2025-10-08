@@ -1,0 +1,16 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fullstack Chat App (React + Node + Socket.IO)",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
